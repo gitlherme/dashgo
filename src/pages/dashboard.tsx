@@ -1,7 +1,13 @@
+import Head from "next/head";
 import { Header } from "../components/Header";
 
 export default function Dashboard() {
   return (
-    <Header />
+    <>
+      <Head>
+        <title>dashgo. | Dashboard</title>
+      </Head>
+      <Header />
+    </>
   )
 }
