@@ -14,13 +14,13 @@ export function Sidebar() {
         align="flex-start"
       >
         <NavSection title="Geral">
-          <NavLink title="Dashboard" icon={RiDashboardLine} />
-          <NavLink title="Forms" icon={RiInputMethodLine} />
+          <NavLink title="Dashboard" href="/dashboard" icon={RiDashboardLine} />
+          <NavLink title="Usuários" href="/users" icon={RiContactsLine} />          
         </NavSection>
 
         <NavSection title="Automação">
-          <NavLink title="Contatos" icon={RiContactsLine} />
-          <NavLink title="Automações" icon={RiGitMergeLine} />
+          <NavLink title="Forms" href="/forms" icon={RiInputMethodLine} />
+          <NavLink title="Automações" href="/automation" icon={RiGitMergeLine} />
         </NavSection>
       </Stack>
 
